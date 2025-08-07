@@ -31,9 +31,11 @@ form{
     margin: auto;
 }
 
- input[type="text"],
- input[type="email"],
- textarea {
-    padding: 10px;
-    margin
-}
+ form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #beccd8;
+ }
