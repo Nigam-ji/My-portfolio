@@ -1,11 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
 </head>
+
 <body>
-    
+    <header>
+        <marquee behavior="" direction="">
+            <h1>WELCOME TO MY WEB PAGE</h1>
+        </marquee>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Priyanshu nigam. I am a Web Devloper. I have a passion for coding.</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>I am currently pursuing my B.Tech in Computer Science Engineering from ABES Engineering College,
+                Ghaziabad.</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <p>I have worked on several projects, including web applications and software development. I have experience
+                with HTML, CSS, JavaScript, and Python.</p>
+        </section>
+        <section>
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy reading books, playing video games, and exploring new technologies.</p>
+        </section>
+        <section>
+            <h2>contect me</h2>
+            <p>You can contact me via email at priyanshunigam75@gmail.</p>
+        </section>
+        <section>
+            <h2>My Favourite Song</h2>
+            <p>One of my favorite songs is "Shape of You" by Ed Sheeran. It has a catchy melody and great lyrics.</p>
+            <audio controls>
+                <source src="media/WhatsApp Audio 2025-08-06 at 12.36.13_4642287d.mp3" type="audio/mpeg">
+                Your browser does not support the audio elemhttpsent.
+            </audio>
+        </section>
+        <section>
+            <h2>Favourite Destination</h2>
+            <p>One of my favorite destinations is the serene beaches of Goa, where I love to relax and enjoy the natural
+                beauty.</p>
+            <img src="https://s3.india.com/wp-content/uploads/2024/06/List-of-8-Famous-Beaches-Around-Goa.jpg?impolicy=Medium_Widthonly&w=350&h=263"
+                alt="">
+        </section>
+        <section>
+            <h2>Favourite Video</h2>
+            <p>One of my favorite videos is a travel vlog showcasing the beautiful landscapes of New Zealand.</p>
+            <video controls width="600" height="400">
+                <source src="media/WhatsApp Video 2025-08-06 at 12.37.48_b940891a.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section>
+            <h2>Favourite Youtub</h2>
+            <p>One of my favorite YouTube channels is "Tech With Tim," where I learn about programming and software
+                development.</p>
+            <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/gUV5DJb6KGs?si=BM6bXcRmk0WyLtBl"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+        </section>
+        <section>
+            <h2>Favourite Place Map</h2>
+            <p>One of my favorite places is the Eiffel Tower in Paris, France. Here is a map to its location:</p>
+            <iframe
+                src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999123456789!2d2.294481315674!3d48.858844079287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fddc5b5b5b5%3A0x123456789abcdefg!2sEiffel+Tower%2C+Champ+de+Mars%2C+5+Avenue+Anatole+France%2C+75007+Paris%2C+France!5e0!3m2!1sen!2sin!4v1616161616161"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <h2>Registration Form</h2>
+
+
+        <form action="https://formsubmit.co/your@email.com" method="post">
+
+
+            <label for="name">Full Name:</label>
+
+            <input type="text" id="name" name="fullname" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+
+            <input type="email" id="name" name="email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="genderr" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+
+            <p>Select your interests:</p>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="express">Express</option>
+            </select>
+            <br><br>
+
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <label for="story">Your story</label>
+
+            <textarea name="" id="story"></textarea>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume">
+            <br><br>
+
+            <input type="submit" value="Register">
+
+            <button type="submit">Submit the form</button>
+
+            <button type="reset">reset the form</button>
+
+            <input type="reset" value="Reset Form">
+
+        </form>
+    </main>
+
+
+
 </body>
+
 </html>
