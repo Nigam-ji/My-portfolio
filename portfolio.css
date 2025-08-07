@@ -1,0 +1,39 @@
+header{
+    background-color: #c1c7cc;
+    padding: 20px;
+    text-align: center;
+}
+
+ h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+ section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ h2 {
+    color: #555;
+}
+
+ p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+    padding: 10px;
+    margin
+}
